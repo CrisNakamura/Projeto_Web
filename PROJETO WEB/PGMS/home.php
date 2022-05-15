@@ -1,3 +1,4 @@
+
 <html>
 
 <head>
@@ -19,6 +20,8 @@
                     <li><a class="header" href="#como_funciona">Como funciona</a></li>
                     <li><a class="header" href="#agende_uma_consulta">Agende uma Consulta</a></li>
                     <li><a class="header" href="../LOGINSYSTEM/login.php"> <img src='icon-user.png' alt='user' width='20' height='20'> Login</a></li>
+                    <li><a class="header" href="../LOGINSYSTEM/register.php"> Registrar-se</a></li>
+
                 </nav>
             </div>
         </section>
@@ -33,7 +36,7 @@
         <p class="txt_colorbox1_2">no dia em que você precisa<br>e sem mensalidade!</p>
 
         <div>
-            <p id="tipos_de_exame" class="titulo">Tipos de Exame</p>
+            <p id="tipos_de_exame" class="tipos_de_exame">Tipos de Exame</p>
             <div class="colorbox2">
                 <image class="icon" src="icon_hospital-bed.png" alt="icon">
                     <p class="exame">Eletrocardiograma</p>
@@ -62,29 +65,27 @@
         </div>
 
         <div>
-            <p id="como_funciona" class="titulo">Como funciona</p>
+            <p id="como_funciona" class="tipos_de_exame">Como funciona</p>
             <div class="colorbox3">
                 <image class="story" src="image_story.png">
-                    <ul class="textbox3">
-                        <li class="func">Fale conosco através do site ou pelo<br>contato telefônico;</li>
-                        <li class="func">Agende sua consulta na data e horário<br>desejado;</li>
-                        <li class="func">Faça a consulta com seu médico na <br>clínica ou por chamada de vídeo;</li>
-                        <li class="func">Agende seus exames no pós-consulta.</li>
-                        <h1 class="func">Viva uma saúde mais inteligente!</h1>
-                    </ul>
-            </div>
-            <div class="flexbox">
                 <image class="icon2" src="icon_baloon.png">
-                    <image class="icon2" src="icon_calendar.png">
-                        <image class="icon2" src="icon_estetoscopio.png">
-                            <image class="icon2" src="icon_note.png">
+                <image class="icon2" src="icon_calendar.png">
+                <image class="icon2" src="icon_estetoscopio.png">
+                <image class="icon2" src="icon_note.png">
+
+                                    <p class="func">Fale conosco através do site ou pelo contato telefônico;</p>
+                                    <p class="func">Agende sua consulta na data e horário desejado;</p>
+                                    <p class="func">Faça a consulta com seu médico na clínica ou por chamada de vídeo;</p>
+                                    <p class="func">Agende seus exames no pós-consulta.</p>
+                                    <p class="func">Viva uma saúde mais inteligente!</p>
+
             </div>
+
+
         </div>
 
         <div>
-            <p id="agende_uma_consulta" class="agende_uma_consulta">Agende uma Consulta</p>
-            <div class="colorbox4">
-            </div>
+            <p id="agende_uma_consulta" class="tipos_de_exame">Agende uma Consulta</p>
         </div>
 
     </main>

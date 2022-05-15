@@ -25,7 +25,10 @@
             <button type="submit">Log In</button>
         </div>
     </form>
+    <?php
+ var_dump($_GET);
 
+ ?>
 </body>
 
 </html>
