@@ -1,29 +1,46 @@
 <?php
+session_start();
+include '../BD/conecta_banco.php';
  $erro="";
  var_dump($_POST);
  if (empty($_POST)){
  $erro = "<br>Favor digitar nos campos acima.<br>";
  }
- else
- {
- $usuario = $_POST["txtusu"];
- $senha = $_POST["txtsenha"];
- if ($usuario == "adm" and $senha == "adm"  ) {
-header('Location: admintools.php');
+ else {
+     $usuario = $_POST["txtusu"];
+     $senha = $_POST["txtsenha"];
  }
- elseif ($usuario == "usuario" and $senha == "usuario"  ) {
-    header('Location: usertools.php');
+
+ $query = "SELECT ID_PACIENTE, USUARIO_PACIENTE FROM paciente where USUARIO_PACIENTE = '{$usuario}' and SENHA_PACIENTE = '{$senha}'";
+
+ $result = mysqli_query($conexao, $query);
+
+ $row = mysqli_num_rows($result);
+
+ if($row == 1) {
+     $_SESSION['usuario'] = $usuario;
+     header('Location: usertools.php');
+     exit();
+ }
+ else {
+     $query = "SELECT ID_MEDICO, USUARIO_MEDICO FROM medico where USUARIO_MEDICO = '{$usuario}' and SENHA_MEDICO = '{$senha}'";
+     $result = mysqli_query($conexao, $query);
+     $row = mysqli_num_rows($result);
+     if($row == 1) {
+         $_SESSION['usuario'] = $usuario;
+         header('Location: doctortools.php');
+         exit();
      }
-     elseif ($usuario == "doutor" and $senha == "doutor"  ) {
-        header('Location: doctortools.php');
-         }
-         else {
-            $erro = "<br>Senha Invalida.<br>";
-         }
-
+     else {
+         $query = "SELECT ID_ADMIN, USUARIO_ADMIN FROM admin where USUARIO_ADMIN = '{$usuario}' and SENHA_ADMIN = '{$senha}'";
+         $result = mysqli_query($conexao, $query);
+         $row = mysqli_num_rows($result);
+     }      if($row == 1) {
+         $_SESSION['usuario'] = $usuario;
+         header('Location: admintools.php');
+         exit();
+     }  else {
+         $_SESSION['nao_autenticado'] = true;
+         header('Location: login.php');
  }
- if (!($erro == "")) {
-    $chamada = "Location: login.php?mensagemErro=".$erro;
-    header($chamada);
-
  }
