@@ -41,16 +41,16 @@ li {
 a.header {
     color: #A31621;
     font-family: Tw Cen MT;
-    font-size: 20px;
-    margin: 15px;
+    font-size:20px;
+    margin: 10px;
     text-decoration: none;
-    margin-left: 70px;
+    margin-left: 30px;
 }
 
 body {
     padding: 0;
     margin: 0;
-    background-color: FCF7F8;
+    background-color: #FCF7F8;
 }
 
 .image_medico {
@@ -100,7 +100,7 @@ body {
     line-height: 60px;
 }
 
-.tipos_de_exame {
+.titulo {
     text-align: center;
     color: #A31621;
     font-family: TW Cen MT;
@@ -170,26 +170,38 @@ a.link_exame {
 
 .colorbox3 {
     background-color: #cbdce9;
-    top: 1900px;
+    top: 10px;
     left: 80px;
-    position: absolute;
+    position: relative;
     width: 1200px;
     height: 600px;
 }
 
 .story {
-    padding-left: 10px;
+    padding-left: 0px;
     padding-top: 50px;
-    width: 700px;
+    width: 650px;
 }
 
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1900px;
+    left: 10px;
+}
 
 .icon2 {
-
     width: 70px;
-    right: 0;
+    padding-top: 50px;
     padding-left: 750px;
-    padding-top: 20px;
+}
+
+ul.textbox3 {
+    text-align: left;
+    margin: 15px;
+    padding-left: 5px;
+    list-style-type: none;
 }
 
 .func {
@@ -197,12 +209,59 @@ a.link_exame {
     font-size: 25px;
     text-align: left;
     color: #4E8098;
-    margin: 30px;
+    top: -450px;
+    left: 700px;
+    margin-top: 65px;
+    padding-left: 55px;
+    position: relative;
+}
+
+.agende_uma_consulta {
+    text-align: center;
+    color: #A31621;
+    font-family: TW Cen MT;
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+ol.textbox4 {
+    text-align: left;
+    margin: 5px;
+    padding-left: 20px;
+}
+
+.colorbox4 {
+    background-color: #cbdce9;
+    top: 10px;
+    left: 580px;
+    position: relative;
+    width: 700px;
+    height: 700px;
+}
+
+.func2 {
+    font-family: Tw Cen MT;
+    font-size: 30px;
+    text-align: left;
+    color: #4E8098;
+    top: 50px;
+    left: 150px;
+    margin-top: 70px;
+    padding-left: 55px;
+    position: relative;
+}
+
+
+ul.textbox4 {
+    text-align: left;
+    margin: 15px;
+    padding-left: 5px;
+    list-style-type: none;
 }
 
 footer {
     position: relative;
-    margin-top: 1700px;
+    margin-top: 150px;
 }
 
 #footer .primary {
@@ -220,7 +279,6 @@ footer {
     color: #4E8098;
     font-size: 20px;
 }
-
 
 .logo_footer {
     position: relative;

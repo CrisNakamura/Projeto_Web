@@ -1,0 +1,178 @@
+#page-header {
+    background-color: CED3DC;
+    height: 10px;
+    align-items: center;
+}
+
+#page-header .primary {
+    display: flex;
+    padding: 10px 20px;
+    background-color: CED3DC;
+    font-family: Tw Cen MT;
+    color: #4E8098;
+    position: relative;
+}
+
+.logo_header {
+    position: relative;
+    padding-top: 20px;
+    margin: 0;
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.list-menu {
+    justify-content: flex-start;
+}
+
+nav.list {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+li {
+    padding: 0 10px;
+    margin-top: 50px;
+}
+
+a.header {
+    color: #A31621;
+    font-family: Tw Cen MT;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FCF7F8;
+}
+
+.image1 {
+    padding-top: 170px;
+    width: 700px;
+    margin-top: 30px;
+}
+
+p.title {
+    position: absolute;
+    top: 170px;
+    padding-left: 750;
+    text-align: left;
+    color: #A31621;
+    font-family: TW Cen MT;
+    font-size: 50px;
+}
+
+.desc {
+    position: absolute;
+    top: 250px;
+    padding-left: 750px;
+    font-family: Tw Cen MT;
+    font-size: 20px;
+    text-align: left;
+    color: #4E8098;
+    margin-top: 50px;
+    line-height: 40px;
+}
+
+.colorbox {
+    background-color: #cbdce9;
+    top: 150px;
+    left: 10px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.colorbox-text {
+    font-family: Tw Cen MT;
+    font-size: 25px;
+    text-align: center;
+    color: #A31621;
+}
+
+.exame_descricao {
+    font-family: Tw Cen MT;
+    font-size: 18px;
+    text-align: left;
+    color: #4e8198;
+    padding-bottom: 15px;
+    margin: 15px;
+}
+
+.agendar {
+    font-family: Tw Cen MT;
+    font-size: 20px;
+    padding: 15px;
+    color: #ffffff;
+    background-color: #4e8198;
+    border-radius: 20px;
+    border-style: none;
+    position: relative;
+    text-decoration: none;
+}
+
+.flexbox {
+    display: flex;
+    align-items: stretch;
+    padding: 10px;
+    justify-content: center;
+    top: 200px;
+    flex-wrap: wrap;
+}
+
+
+
+
+footer {
+    position: relative;
+    margin-top: 150px;
+}
+
+#footer .primary {
+    display: flex;
+    padding: 10px 20px;
+    background-color: CED3DC;
+    font-family: Tw Cen MT;
+    color: #4E8098;
+}
+
+#footer .secondary {
+    padding: 10px 30px;
+    background-color: CED3DC;
+    font-family: Tw Cen MT;
+    color: #4E8098;
+    font-size: 20px;
+}
+
+.logo_footer {
+    position: relative;
+    padding-top: 20px;
+    margin: 0;
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.art_footer {
+    font-size: 24px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+p.art,
+a.footer {
+    font-size: 20px;
+    text-align: left;
+    color: #4E8098;
+    line-height: 10px;
+    text-decoration: none;
+}

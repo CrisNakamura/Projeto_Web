@@ -1,0 +1,44 @@
+div.form_login {
+    position: absolute;
+    display: block;
+    border: 1px gray;
+    border-style: dashed;
+    background-color: #f7fafc;
+    top: 2800px;
+    left: 150px;
+    width: 500px;
+    height: 600px;
+}
+
+.card-top {
+    font-family: Tw Cen MT;
+    font-size: 35px;
+    text-align: center;
+    color: #4E8098;
+}
+
+.card-group {
+    font-family: Tw Cen MT;
+    font-size: 25px;
+    text-align: left;
+    color: #4E8098;
+    padding-left: 50px;
+}
+
+.card-group>input {
+    width: 90%;
+    height: 30px;
+    padding: 20px;
+}
+
+.card-group>button {
+    font-family: Tw Cen MT;
+    font-size: 25px;
+    padding: 15px;
+    width: 90%;
+    color: #ffffff;
+    background-color: #4e8198;
+    border-radius: 30px;
+    border-style    : none;
+    position: center;
+}

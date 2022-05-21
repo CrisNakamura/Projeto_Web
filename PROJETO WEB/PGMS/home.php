@@ -1,4 +1,3 @@
-
 <html>
 
 <head>
@@ -16,12 +15,11 @@
             <div class="list-menu">
                 　<nav class="list">
                     <li><a class="header" href="#home">Home</a></li>
-                    <li><a class="header" href="#tipos_de_exame">Tipos de Exame</a></li>
+                    <li><a class="header" href="../PGMS/exames.php">Tipos de Exame</a></li>
                     <li><a class="header" href="#como_funciona">Como funciona</a></li>
                     <li><a class="header" href="#agende_uma_consulta">Agende uma Consulta</a></li>
                     <li><a class="header" href="../LOGINSYSTEM/login.php"> <img src='icon-user.png' alt='user' width='20' height='20'> Login</a></li>
-                    <li><a class="header" href="../LOGINSYSTEM/register.php"> Registrar-se</a></li>
-
+                    <li><a class="header" href="../LOGINSYSTEM/login.php">Registrar-se</a></li>
                 </nav>
             </div>
         </section>
@@ -36,7 +34,7 @@
         <p class="txt_colorbox1_2">no dia em que você precisa<br>e sem mensalidade!</p>
 
         <div>
-            <p id="tipos_de_exame" class="tipos_de_exame">Tipos de Exame</p>
+            <p id="tipos_de_exame" class="titulo">Tipos de Exame</p>
             <div class="colorbox2">
                 <image class="icon" src="icon_hospital-bed.png" alt="icon">
                     <p class="exame">Eletrocardiograma</p>
@@ -60,32 +58,60 @@
                         <br><br>Completo e indolor, o teste fornece apoio ao diagnóstico de anomalias e doenças cardiovasculares.
                     </p>
                     <br><br>
-                    <a class="link_exame" href="#Todos_os_exames">Todos os Exames ></a>
+                    <a class="link_exame" href="../PGMS/exames.php">Todos os Exames ></a>
             </div>
         </div>
-
         <div>
-            <p id="como_funciona" class="tipos_de_exame">Como funciona</p>
+            <p id="como_funciona" class="titulo">Como funciona</p>
             <div class="colorbox3">
                 <image class="story" src="image_story.png">
-                <image class="icon2" src="icon_baloon.png">
-                <image class="icon2" src="icon_calendar.png">
-                <image class="icon2" src="icon_estetoscopio.png">
-                <image class="icon2" src="icon_note.png">
-
-                                    <p class="func">Fale conosco através do site ou pelo contato telefônico;</p>
-                                    <p class="func">Agende sua consulta na data e horário desejado;</p>
-                                    <p class="func">Faça a consulta com seu médico na clínica ou por chamada de vídeo;</p>
-                                    <p class="func">Agende seus exames no pós-consulta.</p>
-                                    <p class="func">Viva uma saúde mais inteligente!</p>
-
+                    <ul class="textbox3">
+                        <li class="func">Fale conosco através do site ou pelo<br>contato telefônico;</li>
+                        <li class="func">Agende sua consulta na data e horário<br>desejado;</li>
+                        <li class="func">Faça a consulta com seu médico na <br>clínica ou por chamada de vídeo;</li>
+                        <li class="func">Agende seus exames no pós-consulta.</li>
+                        <h1 class="func">Viva uma saúde mais inteligente!</h1>
+                    </ul>
             </div>
-
-
+            <div class="flexbox">
+                <image class="icon2" src="icon_baloon.png">
+                    <image class="icon2" src="icon_calendar.png">
+                        <image class="icon2" src="icon_estetoscopio.png">
+                            <image class="icon2" src="icon_note.png">
+            </div>
         </div>
 
         <div>
-            <p id="agende_uma_consulta" class="tipos_de_exame">Agende uma Consulta</p>
+            <p id="agende_uma_consulta" class="agende_uma_consulta">Agende uma Consulta</p>
+            <div class="colorbox4">
+                <ol class="textbox4">
+                    <li class="func2">Crie uma conta ou faça Login;</li>
+                    <li class="func2">Selecionar consulta ou exame;</li>
+                    <li class="func2">Escolha a data e horário;</li>
+                    <li class="func2">Finalizar o agendamento.</li>
+                    <h1 class="func2">Se preferir, entre em contato<br>pelo WhatsApp: (11) 3698-5214</h1>
+                </ol>
+            </div>
+            <form action=../LOGINSYSTEM/login.php" method="post">
+                <link rel="stylesheet" href="login.css">
+                <div class="form_login">
+                    <div class="card-top">
+                        <h2>Login</h2>
+                    </div>
+                    <div class="card-group">
+                        <label>Endereço de email</label><br>
+                        <input type="text" name="txtusu" placeholder="exemplo@gmail.com">
+                    </div><br><br>
+                    <div class="card-group">
+                        <label>Senha</label><br>
+                        <input type="password" name="txtsenha" placeholder="Digite sua senha">
+                    </div><br><br><br><br>
+                    <div class="card-group">
+                        <button type="submit">Login</button> <br><br>
+                        <button type="submit">Cadastrar</button>
+                    </div>
+                </div>
+            </form>
         </div>
 
     </main>
