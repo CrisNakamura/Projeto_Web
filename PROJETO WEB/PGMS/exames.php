@@ -19,7 +19,7 @@
                     <li><a class="header" href="../PGMS/home.php#como_funciona">Como funciona</a></li>
                     <li><a class="header" href="../PGMS/home.php#agende_uma_consulta">Agende uma Consulta</a></li>
                     <li><a class="header" href="../LOGINSYSTEM/login.php"> <img src='icon-user.png' alt='user' width='20' height='20'> Login</a></li>
-                    <li><a class="header" href="../LOGINSYSTEM/login.php">Registrar-se</a></li>
+                    <li><a class="header" href="../LOGINSYSTEM/register.php">Registrar-se</a></li>
                 </nav>
             </div>
         </section>

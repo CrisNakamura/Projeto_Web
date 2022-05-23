@@ -1,6 +1,10 @@
 <?php
 include ('verifica_login.php');
 ?>
-<h2>Seja bem vindo, <?php echo $_SESSION['usuario'];?> </h2>
+<h1>Seja bem vindo, <?php echo $_SESSION['usuario'];?> </h1>
 
-<h2><a href="logout.php"> Clique aqui para sair.</a></h2>
+<h2> O que deseja realizar? </h2>
+<h3><a href="../CRUD/listar.php">Listar dados registrados no banco </a></h3>
+<h3><a href="../CRUD/incluir.php">Incluir dados no banco</a></h3>
+<br>
+<h2><a href="logout.php"> Clique aqui para sair</a></h2>

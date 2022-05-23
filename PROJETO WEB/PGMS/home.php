@@ -19,7 +19,7 @@
                     <li><a class="header" href="#como_funciona">Como funciona</a></li>
                     <li><a class="header" href="#agende_uma_consulta">Agende uma Consulta</a></li>
                     <li><a class="header" href="../LOGINSYSTEM/login.php"> <img src='icon-user.png' alt='user' width='20' height='20'> Login</a></li>
-                    <li><a class="header" href="../LOGINSYSTEM/login.php">Registrar-se</a></li>
+                    <li><a class="header" href="../LOGINSYSTEM/register.php">Registrar-se</a></li>
                 </nav>
             </div>
         </section>
@@ -33,7 +33,7 @@
         <p class="txt_colorbox1"><b>Consultas e Exames</b><br><b>com preços acessíveis,</b></p>
         <p class="txt_colorbox1_2">no dia em que você precisa<br>e sem mensalidade!</p>
 
-        <div>
+        <div    >
             <p id="tipos_de_exame" class="titulo">Tipos de Exame</p>
             <div class="colorbox2">
                 <image class="icon" src="icon_hospital-bed.png" alt="icon">
@@ -92,15 +92,15 @@
                     <h1 class="func2">Se preferir, entre em contato<br>pelo WhatsApp: (11) 3698-5214</h1>
                 </ol>
             </div>
-            <form action=../LOGINSYSTEM/login.php" method="post">
+            <form action=../LOGINSYSTEM/valida.php method="post">
                 <link rel="stylesheet" href="login.css">
                 <div class="form_login">
                     <div class="card-top">
                         <h2>Login</h2>
                     </div>
                     <div class="card-group">
-                        <label>Endereço de email</label><br>
-                        <input type="text" name="txtusu" placeholder="exemplo@gmail.com">
+                        <label>Usuário</label><br>
+                        <input type="text" name="txtusu" placeholder="Digite seu usuário">
                     </div><br><br>
                     <div class="card-group">
                         <label>Senha</label><br>
@@ -108,10 +108,17 @@
                     </div><br><br><br><br>
                     <div class="card-group">
                         <button type="submit">Login</button> <br><br>
-                        <button type="submit">Cadastrar</button>
                     </div>
+
+
+            </form>
+            <form action=../LOGINSYSTEM/register.php>
+                <div class="card-group">
+                <button class="float-left submit-button" >Cadastrar</button>
                 </div>
             </form>
+        </div>
+
         </div>
 
     </main>

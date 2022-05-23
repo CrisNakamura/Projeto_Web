@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../BD/conecta_banco.php';
+include '../BD/conecta_bancosqli.php';
  $erro="";
  var_dump($_POST);
  if (empty($_POST)){
@@ -15,9 +15,9 @@ include '../BD/conecta_banco.php';
 
  $result = mysqli_query($conexao, $query);
 
- $row = mysqli_num_rows($result);
+ $v = mysqli_num_rows($result);
 
- if($row == 1) {
+ if($v == 1) {
      $_SESSION['usuario'] = $usuario;
      header('Location: usertools.php');
      exit();
@@ -25,8 +25,8 @@ include '../BD/conecta_banco.php';
  else {
      $query = "SELECT ID_MEDICO, USUARIO_MEDICO FROM medico where USUARIO_MEDICO = '{$usuario}' and SENHA_MEDICO = '{$senha}'";
      $result = mysqli_query($conexao, $query);
-     $row = mysqli_num_rows($result);
-     if($row == 1) {
+     $v = mysqli_num_rows($result);
+     if($v == 1) {
          $_SESSION['usuario'] = $usuario;
          header('Location: doctortools.php');
          exit();
@@ -34,8 +34,8 @@ include '../BD/conecta_banco.php';
      else {
          $query = "SELECT ID_ADMIN, USUARIO_ADMIN FROM admin where USUARIO_ADMIN = '{$usuario}' and SENHA_ADMIN = '{$senha}'";
          $result = mysqli_query($conexao, $query);
-         $row = mysqli_num_rows($result);
-     }      if($row == 1) {
+         $v = mysqli_num_rows($result);
+     }      if($v == 1) {
          $_SESSION['usuario'] = $usuario;
          header('Location: admintools.php');
          exit();

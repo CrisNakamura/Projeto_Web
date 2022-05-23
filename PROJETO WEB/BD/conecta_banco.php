@@ -1,7 +1,13 @@
 <?php
-define('HOST', 'localhost:3307');
-define('USUARIO', 'root');
-define('SENHA', '');
-define('DB', 'cardiologia');
+$servername = "localhost:3307";
+$username = "root";
+$password = "";
+$dbname = "cardiologia";
 
-$conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ("Não foi possivel realizar a conexão.");
+try {
+    $conexao = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+} catch (PDOException $e) {
+    echo "Erro: " . $e->getMessage();
+    $conexao = null;
+}
+
