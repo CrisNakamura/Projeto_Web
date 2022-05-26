@@ -36,18 +36,18 @@ $tipousuario = "medico";
 
     <label>Nome</label>
 
-    <input type="text" class="form-control" name="nome" placeholder="Digite o seu nome."   value="<?php echo $nome; ?>"> <br><br>
+    <input type="text" class="form-control" name="nome" placeholder="Digite o nome."   value="<?php echo $nome; ?>"> <br><br>
 
     <label>CRM</label>
 
-    <input type="text" class="form-control" name="crm" placeholder="Digite o seu CRM" value="<?php echo $crm; ?>"><br><br>
+    <input type="text" class="form-control" name="crm" placeholder="Digite o CRM." value="<?php echo $crm; ?>"><br><br>
 
     <label>Usuario</label>
 
-    <input type="text" class="form-control"  name="usuario" placeholder="Digite um nome de usuário." value="<?php echo $usuario; ?>"> <br><br>
+    <input type="text" class="form-control"  name="usuario" placeholder="Digite o nome de usuário." value="<?php echo $usuario; ?>"> <br><br>
 
     <label>Senha</label>
-    <input type="text" class="form-control"  name="senha" placeholder="Digita uma  senha." value="<?php echo $senha; ?>"> <br><br>
+    <input type="text" class="form-control"  name="senha" placeholder="Digita a senha." value="<?php echo $senha; ?>"> <br><br>
 
     <br><br>
     <button type="submit">Enviar</button>

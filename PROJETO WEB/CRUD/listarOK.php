@@ -2,7 +2,7 @@
 require_once '../BD/conecta_banco.php';
 $tipolista = $_POST['tipolista'];
 
-echo "<h1>Cadastro de Usuarios</h1>";
+echo 'Clique <a href="../LOGINSYSTEM/admintools.php"> aqui</a> para voltar ao menu de ferramentas. <br>';
 echo "<h2>Nomes dos Usuarios</h2>";
 switch ($tipolista) {
     case "paciente":
@@ -14,7 +14,7 @@ switch ($tipolista) {
             echo "<a href='alterarpaciente.php?ID_PACIENTE=" . $v['ID_PACIENTE'] . "'>Alterar</a> ou
             <a href='excluir.php?ID_PACIENTE=" . $v['ID_PACIENTE'] . "'>Excluir</a> --> " . $v['ID_PACIENTE'] . " | " . $v['NM_PACIENTE'] . " | " . $v['DS_LOGRADOURO'] . " | " . $v['DS_NUMERO'] .
                 " | " . $v['DS_COMPLEMENTO'] . " | " . $v['DS_BAIRRO'] . " | " . $v['DS_CEP'] . " | " . $v['NR_DDD'] .
-                " | " . $v['NR_TELEFONE'] . " | " . $v['CPF'] . " | " . $v['USUARIO_PACIENTE'] . " | " . $v['SENHA_PACIENTE'] . "<br><br>";;
+                " -  " . $v['NR_TELEFONE'] . " | " . $v['CPF'] . " | " . $v['USUARIO_PACIENTE'] . " | " . $v['SENHA_PACIENTE'] . "<br><br>";;
         }
         break;
 
@@ -36,4 +36,3 @@ switch ($tipolista) {
         break;
 }
 ?>
-<p><a href="../LOGINSYSTEM/admintools.php"> Clique aqui para voltar ao menu de ferramentas. </a>

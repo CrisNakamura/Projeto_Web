@@ -37,6 +37,7 @@ include '../BD/conecta_bancosqli.php';
          $v = mysqli_num_rows($result);
      }      if($v == 1) {
          $_SESSION['usuario'] = $usuario;
+         $_SESSION['admin'] = 1;
          header('Location: admintools.php');
          exit();
      }  else {
