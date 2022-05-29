@@ -1,6 +1,6 @@
 <?php
-include ('verifica_login.php');
-include ('verifica_admin.php')
+require_once ('verifica_login.php');
+require_once ('verifica_admin.php')
 ?>
 <h1>Seja bem vindo, <?php echo $_SESSION['usuario'];?> </h1>
 

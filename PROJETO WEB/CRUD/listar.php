@@ -1,5 +1,5 @@
 <?php
-include ('../LOGINSYSTEM/verifica_login.php');
+require_once ('../LOGINSYSTEM/verifica_login.php');
 ?>
 Clique <a href="../LOGINSYSTEM/admintools.php"> aqui</a> para voltar ao menu de ferramentas. <br><br>
 <form action="listarOK.php" method="POST">

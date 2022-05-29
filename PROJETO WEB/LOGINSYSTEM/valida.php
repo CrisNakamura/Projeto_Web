@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../BD/conecta_bancosqli.php';
+require_once '../BD/conecta_bancosqli.php';
  $erro="";
  var_dump($_POST);
  if (empty($_POST)){
