@@ -1,0 +1,179 @@
+#page-header {
+    background-color: CED3DC;
+    height: 10px;
+    align-items: center;
+}
+
+#page-header .primary {
+    display: flex;
+    padding: 10px 20px;
+    background-color: CED3DC;
+    font-family: Tw Cen MT;
+    color: #4E8098;
+    position: relative;
+}
+
+.logo_header {
+    position: relative;
+    padding-top: 20px;
+    margin: 0;
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.list-menu {
+    justify-content: flex-start;
+}
+
+nav.list {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+li {
+    padding: 0 10px;
+    margin-top: 50px;
+}
+
+a.header {
+    color: #A31621;
+    font-family: Tw Cen MT;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FCF7F8;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+}
+
+.story {
+    padding-top: 250px;
+    width: 700px;
+}
+
+div.form_agendamento {
+    position: absolute;
+    display: block;
+    border: 1px gray;
+    border-style: dashed;
+    background-color: #f7fafc;
+    margin-bottom: 20px;
+    top: 200px;
+    left: 700px;
+    width: 600px;
+    height: 700px;
+}
+
+.card-top {
+    font-family: Tw Cen MT;
+    font-size: 35px;
+    text-align: center;
+    color: #4E8098;
+}
+
+.card-group {
+    font-family: Tw Cen MT;
+    font-size: 25px;
+    text-align: left;
+    color: #4E8098;
+    padding: 30px;
+    position: center;
+}
+
+.card-group>input {
+    width: 90%;
+    height: 30px;
+    padding: 20px;
+
+}
+
+.card-group>button {
+    font-family: Tw Cen MT;
+    font-size: 25px;
+    padding: 15px;
+    width: 90%;
+    color: #ffffff;
+    background-color: #4e8198;
+    border-radius: 30px;
+    border-style: none;
+}
+
+footer {
+    position: relative;
+    margin-top: 250px;
+}
+
+#footer .primary {
+    display: flex;
+    padding: 10px 20px;
+    background-color: CED3DC;
+    font-family: Tw Cen MT;
+    color: #4E8098;
+}
+
+#footer .secondary {
+    padding: 10px 30px;
+    background-color: CED3DC;
+    font-family: Tw Cen MT;
+    color: #4E8098;
+    font-size: 20px;
+}
+
+.logo_footer {
+    position: relative;
+    padding-top: 20px;
+    margin: 0;
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.art_footer {
+    font-size: 24px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+p.art,
+a.footer {
+    font-size: 20px;
+    text-align: left;
+    color: #4E8098;
+    line-height: 10px;
+    text-decoration: none;
+}

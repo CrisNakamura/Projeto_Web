@@ -42,6 +42,6 @@ require_once '../BD/conecta_bancosqli.php';
          exit();
      }  else {
          $_SESSION['nao_autenticado'] = true;
-         header('Location: login.php');
+         header('Location: login_user.php');
  }
  }

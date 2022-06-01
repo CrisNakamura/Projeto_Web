@@ -11,15 +11,15 @@
     <header id="page-header">
         <span id="home"></span>
         <section class="primary">
-            <a href="#home"><img class="logo_header" src='Logo.png' alt='logo'></a>
+            <a href="#home"><img class="logo_header" src='../PGMS/IMG/Logo.png' alt='logo'></a>
             <div class="list-menu">
                 　<nav class="list">
                     <li><a class="header" href="#home">Home</a></li>
                     <li><a class="header" href="../PGMS/exames.php">Tipos de Exame</a></li>
                     <li><a class="header" href="#como_funciona">Como funciona</a></li>
                     <li><a class="header" href="#agende_uma_consulta">Agende uma Consulta</a></li>
-                    <li><a class="header" href="../LOGINSYSTEM/login.php"> <img src='icon-user.png' alt='user' width='20' height='20'> Login</a></li>
-                    <li><a class="header" href="../LOGINSYSTEM/register.php">Registrar-se</a></li>
+                    <li><a class="header" href="../LOGINSYSTEM/login_user.php"> <img src='../PGMS/IMG/icon-user.png' alt='user' width='20' height='20'> Login</a></li>
+                    <li><a class="header" href="../LOGINSYSTEM/register.php">Cadastrar-se</a></li>
                 </nav>
             </div>
         </section>
@@ -28,15 +28,15 @@
 
     <!----- main Tipos de exame ----->
     <main>
-        <img class="image_medico" src="Medico1.jpg" alt='medico'></a>
+        <img class="image_medico" src="../PGMS/IMG/Medico1.jpg" alt='medico'></a>
         <div class="colorbox1"></div>
         <p class="txt_colorbox1"><b>Consultas e Exames</b><br><b>com preços acessíveis,</b></p>
         <p class="txt_colorbox1_2">no dia em que você precisa<br>e sem mensalidade!</p>
 
-        <div    >
+        <div>
             <p id="tipos_de_exame" class="titulo">Tipos de Exame</p>
             <div class="colorbox2">
-                <image class="icon" src="icon_hospital-bed.png" alt="icon">
+                <image class="icon" src="../PGMS/IMG/icon_hospital-bed.png" alt="icon">
                     <p class="exame">Eletrocardiograma</p>
                     <p class="desc">É um exame simples e consiste em um estudo momentâneo do coração por ativação elétrica.
                         <br><br>É um teste completamente indolor e rápido e não requer nenhuma preparação especial.
@@ -44,14 +44,14 @@
                 </image>
             </div>
             <div class="colorbox2_1">
-                <image class="icon" src="icon_prancheta.png" alt="icon">
+                <image class="icon" src="../PGMS/IMG/icon_prancheta.png" alt="icon">
                     <p class="exame">Teste Ergométrico</p>
                     <p class="desc">
                         O teste ergométrico permite identificar problemas cardíacos, analisando como o coração do paciente reage ao esforço físico.
                     </p>
             </div>
             <div class="colorbox2_2">
-                <image class="icon" src="icon_gotas.png" alt="icon">
+                <image class="icon" src="../PGMS/IMG/icon_gotas.png" alt="icon">
                     <p class="exame">Ecodoppler</p>
                     <p class="desc">
                         É um dos principais exames de ultrassonografia com doppler para avaliação do funcionamento de estruturas anatômicas na área do coração.
@@ -64,7 +64,7 @@
         <div>
             <p id="como_funciona" class="titulo">Como funciona</p>
             <div class="colorbox3">
-                <image class="story" src="image_story.png">
+                <image class="story" src="../PGMS/IMG/image_story.png">
                     <ul class="textbox3">
                         <li class="func">Fale conosco através do site ou pelo<br>contato telefônico;</li>
                         <li class="func">Agende sua consulta na data e horário<br>desejado;</li>
@@ -74,10 +74,10 @@
                     </ul>
             </div>
             <div class="flexbox">
-                <image class="icon2" src="icon_baloon.png">
-                    <image class="icon2" src="icon_calendar.png">
-                        <image class="icon2" src="icon_estetoscopio.png">
-                            <image class="icon2" src="icon_note.png">
+                <image class="icon2" src="../PGMS/IMG/icon_baloon.png">
+                    <image class="icon2" src="../PGMS/IMG/icon_calendar.png">
+                        <image class="icon2" src="../PGMS/IMG/icon_estetoscopio.png">
+                            <image class="icon2" src="../PGMS/IMG/icon_note.png">
             </div>
         </div>
 
@@ -114,7 +114,7 @@
             </form>
             <form action=../LOGINSYSTEM/register.php>
                 <div class="card-group">
-                <button class="float-left submit-button" >Cadastrar</button>
+                    <button class="float-left submit-button">Cadastrar</button>
                 </div>
             </form>
         </div>
@@ -128,7 +128,7 @@
     <footer id="footer">
 
         <section class="primary">
-            <a href="#home"><img class="logo_footer" src="Logo.png" alt='logo'></a>
+            <a href="#home"><img class="logo_footer" src="../PGMS/IMG/Logo.png" alt='logo'></a>
             <article class="art_footer">
                 <h>MENU</h>
                 <br><br>

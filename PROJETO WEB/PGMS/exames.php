@@ -11,15 +11,15 @@
     <header id="page-header">
         <span id="home"></span>
         <section class="primary">
-            <a href="../PGMS/home.php"><img class="logo_header" src='Logo.png' alt='logo'></a>
+            <a href="../PGMS/home.php"><img class="logo_header" src='../PGMS/IMG/Logo.png' alt='logo'></a>
             <div class="list-menu">
                 　<nav class="list">
                     <li><a class="header" href="../PGMS/home.php">Home</a></li>
                     <li><a class="header" href="../PGMS/exames.php">Tipos de Exame</a></li>
                     <li><a class="header" href="../PGMS/home.php#como_funciona">Como funciona</a></li>
                     <li><a class="header" href="../PGMS/home.php#agende_uma_consulta">Agende uma Consulta</a></li>
-                    <li><a class="header" href="../LOGINSYSTEM/login.php"> <img src='icon-user.png' alt='user' width='20' height='20'> Login</a></li>
-                    <li><a class="header" href="../LOGINSYSTEM/register.php">Registrar-se</a></li>
+                    <li><a class="header" href="../LOGINSYSTEM/login_user.php"> <img src='../PGMS/IMG/icon-user.png' alt='user' width='20' height='20'> Login</a></li>
+                    <li><a class="header" href="../LOGINSYSTEM/register.php">Cadastrar-se</a></li>
                 </nav>
             </div>
         </section>
@@ -29,7 +29,7 @@
 
     <!----- main Tipos de exame ----->
     <main>
-        <img class="image1" src="Image1.jpg" alt='fundo'></a>
+        <img class="image1" src="../PGMS/IMG/Image1.jpg" alt='fundo'></a>
         <div class="exame">
             <p class="title">Tipos de Exame</p>
             <p class="desc">Cardiologia é a especialidade médica que realiza o diagnóstico e trata das doenças do coração.<br>
@@ -94,7 +94,7 @@
     <footer id="footer">
 
         <section class="primary">
-            <a href="../PGMS/home.php"><img class="logo_footer" src="Logo.png" alt='logo'></a>
+            <a href="../PGMS/home.php"><img class="logo_footer" src="../PGMS/IMG/Logo.png" alt='logo'></a>
             <article class="art_footer">
                 <h>MENU</h>
                 <br><br>
